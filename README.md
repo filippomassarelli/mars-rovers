@@ -1,6 +1,9 @@
-# <img heigh="75px" src="https://user-images.githubusercontent.com/60197762/188880679-b2eb72ee-bf94-46df-81ee-504820ed3297.gif" /> mars-rovers
+# mars-rovers
 
 > A simple programme to track and move cute robots on Mars.
+
+<img heigh="75px" src="https://user-images.githubusercontent.com/60197762/188880679-b2eb72ee-bf94-46df-81ee-504820ed3297.gif" />
+
 
 ## Usage
 
