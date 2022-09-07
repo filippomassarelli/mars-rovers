@@ -1,12 +1,12 @@
-# <img heigh="50px" src="https://user-images.githubusercontent.com/60197762/188876123-a187cc6d-beb0-48c1-892e-fa7700fa2317.gif" /> mars-rovers
-
-A simple programme to track and move cute robots on Mars.
+<img heigh="75px" src="https://user-images.githubusercontent.com/60197762/188880679-b2eb72ee-bf94-46df-81ee-504820ed3297.gif" />
+# mars-rovers
+> A simple programme to track and move cute robots on Mars.
 
 ## Usage
 
-This programme can be ran entirely from your terminal yey!
+This programme can be ran entirely from your terminal 🤓 🎉 yey!
 
-To start, `clone` this repository and `cd` to the root of the project 
+To start, `clone` this repository and `cd` to the root of the project.
 
 Use the `-h` or `--h` flags to check for instructions:
 ```
