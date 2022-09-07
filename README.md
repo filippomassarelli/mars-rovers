@@ -29,14 +29,19 @@ ruby mars_rovers.rb "4 8" "(2, 3, E) LFRFF" "(0, 2, N) FFLFRFF"
 <img width="569" alt="Screenshot 2022-09-07 at 13 18 18" src="https://user-images.githubusercontent.com/60197762/188877016-6ce9ffc2-8461-4215-92af-6abcdcca4e4c.png">
 
 
+## Validations
 
+The programme provides only basic validations to ensure that an error is raised if:
+
+- No rover instructions are passed
 <img width="603" alt="Screenshot 2022-09-07 at 13 21 00" src="https://user-images.githubusercontent.com/60197762/188876969-f107bad5-741c-4a8c-9f10-d08e3cedd0f7.png">
 
--- 7
+- The orientation is invalid
 <img width="630" alt="Screenshot 2022-09-07 at 13 20 36" src="https://user-images.githubusercontent.com/60197762/188876979-8aaef5bd-0915-4c90-a7d5-f8abfd5de56a.png">
 
--- PP
-<img width="535" alt="Screenshot 2022-09-07 at 13 18 43" src="https://user-images.githubusercontent.com/60197762/188876986-e84bd1a6-17c3-4d88-af2f-8d35e1fec2df.png">
+- The command is invalid
+<img width="691" alt="Screenshot 2022-09-07 at 13 38 00" src="https://user-images.githubusercontent.com/60197762/188880482-7dc9af47-61a9-4ba3-bab6-b6c36fd00c69.png">
+
 
 
 
