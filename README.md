@@ -42,6 +42,3 @@ The programme provides only basic validations to ensure that an error is raised 
 - The command is invalid
 <img width="691" alt="Screenshot 2022-09-07 at 13 38 00" src="https://user-images.githubusercontent.com/60197762/188880482-7dc9af47-61a9-4ba3-bab6-b6c36fd00c69.png">
 
-
-
-
