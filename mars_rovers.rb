@@ -1,5 +1,11 @@
-def mars_rovers(world, *rovers_instructions)
-  raise 'Rover instructions are missing!' unless rovers_instructions.present?
+def mars_rovers(world, *args)
+  rovers_instructions = args.map!{|x| x.split(") ") }
+
+  rovers_instructions.each do |arr|
+    arr[0] = arr[0].slice(1..-1).split(", ").map{|str| Integer(str) rescue str}
+  end
+
+  raise 'Rover instructions are missing!' if rovers_instructions.empty?
 
   rovers_instructions.each do |rover_instruction|
     raise 'Unexpected rover instruction length!' unless rover_instruction.length === 2
@@ -52,3 +58,20 @@ def validate_map x, y
 
   [x, y, lost]
 end
+
+banner = <<-BANNER
+Usage: ruby mars_rovers.rb "world" ["rover_data"]
+
+     ARG      |       DESCRIPTION       |     EXAMPLE
+   "world"    |   the size of the map   |      "4 8"
+ "rover_data" | rover coords & commands |  "(2, 3, E) LFRFF"
+
+-h, --help           Prints this message
+BANNER
+
+if ARGV[0] == "-h" || ARGV[0] == "--help"
+  puts banner
+  exit
+end
+
+mars_rovers(*ARGV)
