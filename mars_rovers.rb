@@ -22,7 +22,7 @@ def mars_rovers(world, *args)
       end
     end
 
-    x, y, lost = validate_map(x, y)
+    x, y, lost = validate_map(x, y, world)
 
     puts "(#{x}, #{y}, #{o})#{lost}"
   end
@@ -51,8 +51,10 @@ def turn orientation, action
   compass[compass.index(orientation) + direction]
 end
 
-def validate_map x, y
-  lost = (x.negative? || y.negative?) ? ' LOST' : ''
+def validate_map x, y, world
+  m, n = world.split.map(&:to_i)
+  lost = ( x.negative? || y.negative? || x > m || y > n ) ? ' LOST' : ''
+
   x = 0 if x.negative?
   y = 0 if y.negative?
 
