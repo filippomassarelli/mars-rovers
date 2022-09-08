@@ -11,7 +11,7 @@ This programme can be ran entirely from your terminal 🤓 🎉 yey!
 
 To start, `clone` this repository and `cd` to the root of the project. 
 
-This is a ruby programme thus check if you have ruby installed on your machine with `ruby -v`  and [install it](https://www.ruby-lang.org/en/documentation/installation/) if you don't.
+This is a ruby programme 💎 thus check if you have ruby installed on your machine with `ruby -v`  and [install it](https://www.ruby-lang.org/en/documentation/installation/) if you don't.
 
 Use the `-h` or `--h` flags to check for instructions:
 ```
